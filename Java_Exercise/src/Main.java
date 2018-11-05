@@ -22,8 +22,9 @@ public class Main {
 
 
         
-        choice=input.nextInt();
+        choice=8;
         while(choice!=9){
+        choice = input.nextInt();
         if (choice==1){
             System.out.println("Please give me a number");
             num1=input.nextInt();
@@ -73,9 +74,7 @@ public class Main {
             System.out.println("Welcome to the Number Guess Game");
             n1.game();
         }
-        else if (choice==7){
-            System.out.println("Welcome to the Dice Guess Game");
-        }
+        
 
 
     }
