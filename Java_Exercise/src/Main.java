@@ -17,10 +17,13 @@ public class Main {
                 "4-)Multiplication\n\n" +
                 "5-)Which is bigger(if you can not see clearly)\n\n" +
                 "6-)Number Guess Game\n\n\n\n\n" +
-                "Choose your operation wisely!!##########################################");
+                "If you want to close the Number Wizard You can press 9 Choose your operation wisely!!##########################################");
+        
 
 
+        
         choice=input.nextInt();
+        while(choice!=9){
         if (choice==1){
             System.out.println("Please give me a number");
             num1=input.nextInt();
@@ -75,5 +78,6 @@ public class Main {
         }
 
 
+    }
     }
 }
